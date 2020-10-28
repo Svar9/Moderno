@@ -1,5 +1,6 @@
 @import "vars";
 @import "vendor/normalize";
+@import "fonts";
 
 /* Vendor libs */
 @import "vendor/slick";
@@ -11,8 +12,6 @@
 
 /* Blocks */
 @import "blocks/header";
+@import "blocks/menu";
 
 @import "blocks/media";
-
-
-
