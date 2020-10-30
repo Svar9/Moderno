@@ -9,6 +9,7 @@ a:hover,
 a {
     display: inline-block;
     text-decoration: none;
+    color: $text;
 }
 
 ul,
@@ -33,5 +34,8 @@ h3 {
 
 body {
     margin: 0;
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    color: $text;
+    line-height: 24px;
 }
