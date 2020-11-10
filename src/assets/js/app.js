@@ -2,6 +2,7 @@ $(function () {
 
 
     //= components/slick.js
+    //= components/mixitup.js
 
     /* document.querySelector('.menu__btn').onclick = function() {
         document.querySelector('.menu__btn').classList.toggle('active');
