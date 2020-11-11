@@ -102,15 +102,15 @@
             <h2 class="products__title title">Let’s Check Out Our Newest Release Prodcuts</h2>
             <div class="products__inner">
                 <div class="products__inner--btn">
-                    <button class="active">All</button>
-                    <button>WordPress</button>
-                    <button>Joomla</button>
-                    <button>Plugins</button>
-                    <button>Component</button>
-                    <button>PSD</button>
+                    <button type="button" data-filter="all" class="mixitup-control-active">All</button>
+                    <button type="button" data-filter=".category-wordpress">WordPress</button>
+                    <button type="button" data-filter=".category-joomla">Joomla</button>
+                    <button type="button" data-filter=".category-plugins">Plugins</button>
+                    <button type="button" data-filter=".category-component">Component</button>
+                    <button type="button" data-filter=".category-psd">PSD</button>
                 </div>
                 <div class="products__inner--box">
-                    <div class="product__item">
+                    <div class="product__item mix category-wordpress category-popular">
                         <a class="product__item--img"
                             style="background-image: url(assets/images/content/product_item_01.jpg);" href="#"></a>
                         <div class="product__item--content">
@@ -133,11 +133,11 @@
                                 <span>Radiustheme</span>
                             </a>
                             <div class="product__item--rating">
-                                (05)
+                                <div class="rate-star"></div>(05)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-psd category-popular">
                         <a class="product__item--img"
                             style="background-image: url(assets/images/content/product_item_01.jpg);" href="#"></a>
                         <div class="product__item--content">
@@ -160,11 +160,11 @@
                                 <span>Radiustheme</span>
                             </a>
                             <div class="product__item--rating">
-                                (05)
+                                <div class="rate-star"></div>(05)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-wordpress">
                         <a class="product__item--img"
                             style="background-image: url(assets/images/content/product_item_01.jpg);" href="#"></a>
                         <div class="product__item--content">
@@ -187,11 +187,11 @@
                                 <span>Radiustheme</span>
                             </a>
                             <div class="product__item--rating">
-                                (05)
+                                <div class="rate-star"></div>(05)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-joomla category-new">
                         <a class="product__item--img"
                             style="background-image: url(assets/images/content/product_item_01.jpg);" href="#"></a>
                         <div class="product__item--content">
@@ -214,11 +214,11 @@
                                 <span>Radiustheme</span>
                             </a>
                             <div class="product__item--rating">
-                                (05)
+                                <div class="rate-star"></div>(05)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-psd">
                         <a class="product__item--img"
                             style="background-image: url(assets/images/content/product_item_01.jpg);" href="#"></a>
                         <div class="product__item--content">
@@ -241,11 +241,11 @@
                                 <span>Radiustheme</span>
                             </a>
                             <div class="product__item--rating">
-                                (05)
+                                <div class="rate-star"></div>(05)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-component">
                         <a class="product__item--img"
                             style="background-image: url(assets/images/content/product_item_01.jpg);" href="#"></a>
                         <div class="product__item--content">
@@ -268,11 +268,11 @@
                                 <span>Radiustheme</span>
                             </a>
                             <div class="product__item--rating">
-                                (05)
+                                <div class="rate-star"></div>(05)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-wordpress">
                         <a class="product__item--img"
                             style="background-image: url(assets/images/content/product_item_01.jpg);" href="#"></a>
                         <div class="product__item--content">
@@ -295,11 +295,11 @@
                                 <span>Radiustheme</span>
                             </a>
                             <div class="product__item--rating">
-                                (05)
+                                <div class="rate-star"></div>(05)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-plugins">
                         <a class="product__item--img"
                             style="background-image: url(assets/images/content/product_item_01.jpg);" href="#"></a>
                         <div class="product__item--content">
@@ -322,19 +322,30 @@
                                 <span>Radiustheme</span>
                             </a>
                             <div class="product__item--rating">
-                                (05)
+                                <div class="rate-star"></div>(05)
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="products__bottom--btn">
-                    <button>All New Items</button>
-                    <button>Popular Items</button>
+                    <button type="button" data-filter=".category-new">All New Items</button>
+                    <button type="button" data-filter=".category-popular">Popular Items</button>
                 </div>
             </div>
         </div>
 
+    </section>
+
+    <section class="product-slider">
+        <div class="container-fluid">
+            <h2 class="product-slider__title title">
+                This Week Trending Products
+            </h2>
+            <div class="product-slider__inner">
+
+            </div>
+        </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"

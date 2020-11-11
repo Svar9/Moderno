@@ -23,12 +23,6 @@
             margin-left: 5px;
         }
 
-        &.active {
-            background-color: $red;
-            box-shadow: 0px 2px 5px 0px rgba(202, 215, 228, 0.75);
-            color: #fff;
-        }
-
         &:hover {
             background-color: $red;
             box-shadow: 0px 2px 5px 0px rgba(202, 215, 228, 0.75);
@@ -166,6 +160,14 @@
         color: $bg;
     }
 
+}
+
+// plugin
+
+button.mixitup-control-active {
+        background-color: $red;
+        box-shadow: 0px 2px 5px 0px rgba(202, 215, 228, 0.75);
+        color: #fff;
 }
 
   
