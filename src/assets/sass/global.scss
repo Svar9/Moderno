@@ -63,3 +63,21 @@ body {
     display: inline-block;
     margin-right: 10px;
 }
+
+.link {
+    &-twitter {
+        background-position: -28px 0;
+    }
+
+    &-youtube {
+        background-position: -56px 0;
+    }
+
+    &-pinterest {
+        background-position: -84px 0;
+    }
+
+    &-linkedin {
+        background-position: -112px 0;
+    }
+}
