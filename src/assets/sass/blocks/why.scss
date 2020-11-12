@@ -17,17 +17,14 @@
    width: 100%;
    text-align: center;
 
-   &--bg {
+   &--img {
       width: 115px;
       height: 115px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       background-color: #fff;
       border-radius: 50%;
-   }
-
-   &--img {
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
    }
 
    &--title {
@@ -49,7 +46,7 @@
          color: $green;
       }
 
-      .why__item--bg {
+      .why__item--img {
          background-color: $green;
       }
    }
