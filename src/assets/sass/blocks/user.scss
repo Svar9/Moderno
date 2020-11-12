@@ -1,0 +1,45 @@
+.user {
+   margin-left: 20px;
+   margin-right: 25px;
+   padding-right: 20px;
+   position: relative;
+
+   &::before {
+      content: "\f107";
+      font-family: 'icomoon';
+      font-size: 16px;
+      color: #707070;
+      position: absolute;
+      top: 0;
+      right: 0;
+   }
+}
+
+.user__inner {
+   display: flex;
+   align-items: center;
+}
+
+.user__img {
+   margin-right: 15px;
+   width: 34px;
+   height: 34px;
+   overflow: hidden;
+   border-radius: 50%;
+}
+
+.user__info {
+   line-height: 24px;
+   font-size: 14px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.user__name {
+   color: #222222;
+   font-weight: 500;
+}
+
+.user__money {
+   color: $green;
+   font-weight: 700;
+}

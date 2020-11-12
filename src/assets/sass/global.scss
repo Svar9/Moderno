@@ -81,3 +81,21 @@ body {
         background-position: -112px 0;
     }
 }
+
+.notification {
+    span {
+        background-color: $yellow;
+    }
+}
+
+.message {
+    span {
+        background-color: $tomato;
+    }
+}
+
+.basket {
+    span {
+        background-color: $green;
+    }
+}
