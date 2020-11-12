@@ -4,10 +4,12 @@
   line-height: 0;
   display: block;
   cursor: pointer;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   direction: ltr;
 }
-.jq-ry-container[readonly=readonly] {
+.jq-ry-container[readonly="readonly"] {
   cursor: default;
 }
 .jq-ry-container > .jq-ry-group-wrapper {

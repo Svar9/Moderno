@@ -3,7 +3,7 @@ $(function () {
 
     //= components/slick.js
     //= components/mixitup.js
-    //= components/rateyo.js
+    //= components/jquery.rateyo.js
     
 
     /* document.querySelector('.menu__btn').onclick = function() {
@@ -20,8 +20,16 @@ $(function () {
     var mixer = mixitup('.products__inner--box');
 
     $('.rate-star').rateYo({
-        rating: 5
+        rating: 5,
+        starWidth: "12px",
+        readOnly: true
       });
 
+      $('.product-slider__inner').slick({
+        dots: true,
+        arrow: false,
+        slidesToShow: 4,
+        slidesToScroll:4
+      });
 
 })

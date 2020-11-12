@@ -4,7 +4,7 @@
 
 /* Vendor libs */
 @import "vendor/slick";
-@import "vendor/rateyo";
+@import "vendor/jquery.rateyo";
 
 /* Default styles */
 
@@ -17,5 +17,7 @@
 @import "blocks/search";
 @import "blocks/products";
 @import "blocks/product-slider";
+@import "blocks/why";
+@import "blocks/author";
 
 @import "blocks/media";
