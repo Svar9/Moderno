@@ -46,7 +46,8 @@
       }
    }
 
-   &--register {
+   &--register,
+   &--logout {
       margin-left: 6px;
       background-color: $red;
    }
@@ -63,11 +64,16 @@
 }
 
 .header__circle {
+   display: none;
    width: 34px;
    height: 34px;
    background-color: #f5f5f5;
    border-radius: 50%;
    position: relative;
+
+   &.active {
+      display: block;
+   }
 
    &::before {
       position: absolute;
