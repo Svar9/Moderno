@@ -84,14 +84,8 @@
       font-size: 14px;
    }
 
-   &:hover {
-      &::before {
-         color: $bg;
-      }
-   }
-
-   &+.header__circle {
-      margin-left: 15px;
+   &:hover::before {
+      color: $bg;
    }
 
    &.basket::before {
