@@ -17,6 +17,10 @@ $(function () {
     $('.menu__list').slideToggle();
   });
 
+  $('.header__btn--menu').on('click', function(){
+    $('.header__box').toggleClass('active');
+  });
+
 
   $('.rate-star').rateYo({
     rating: 5,
