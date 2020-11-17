@@ -1,0 +1,28 @@
+@import "vars";
+@import "vendor/normalize";
+@import "fonts";
+
+/* Vendor libs */
+@import "vendor/slick";
+@import "vendor/jquery.rateyo";
+
+/* Default styles */
+
+@import "global";
+
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/menu";
+@import "blocks/search";
+@import "blocks/products";
+@import "blocks/product-slider";
+@import "blocks/why";
+@import "blocks/author";
+@import "blocks/tutorial";
+@import "blocks/footer";
+
+@import "blocks/user";
+@import "blocks/basket-message-notification";
+
+@import "blocks/media";

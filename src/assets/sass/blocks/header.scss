@@ -1,0 +1,125 @@
+.header{
+   background-color: #fff;
+}
+
+.header__inner {
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__logo {
+   width: 144px;
+   height: 50px;
+}
+
+.header__text {
+   margin-left: auto;
+   margin-right: 25px;
+   font-size: 15px;
+
+   a {
+      font-size: 15px;
+      color: $text;
+
+      span {
+         color: $red;
+      }
+   }
+}
+
+.header__box {
+   display: flex;
+   align-items: center;
+}
+
+.header__btn {
+   width: 72px;
+   font-size: 12px;
+   color: #fff;
+   text-align: center;
+   border-radius: 4px;
+   padding: 4px 0;
+
+   &--login {
+      background-color: $green;
+
+      &--off {
+         display: none;
+      }
+   }
+
+   &--register,
+   &--logout {
+      margin-left: 6px;
+      background-color: $red;
+   }
+
+   &--logout {
+      display: none;
+
+      &.header__btn--login--on {
+         display: block;
+      }
+   }
+
+   &--menu {
+      display: none;
+   }
+}
+
+.header__circle {
+   display: none;
+   width: 34px;
+   height: 34px;
+   background-color: #f5f5f5;
+   border-radius: 50%;
+   position: relative;
+
+   &.active {
+      display: block;
+   }
+
+   &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #a0a0a0;
+      font-size: 14px;
+   }
+
+   &:hover::before {
+      color: $bg;
+   }
+
+   &.basket::before {
+      content: "\f07a";
+      font-family: 'icomoon';
+   }
+
+   &.message::before {
+      content: "\f003";
+      font-family: 'icomoon';
+   }
+
+   &.notification::before {
+      content: "\f0a2";
+      font-family: 'icomoon';
+   }
+
+   span {
+      position: absolute;
+      border-radius: 50%;
+      height: 18px;
+      width: 18px;
+      color: #fff;
+      text-align: center;
+      z-index: 10;
+      font-size: 11px;
+      line-height: 18px;
+      right: -7px;
+      top: -7px;
+   }
+}
